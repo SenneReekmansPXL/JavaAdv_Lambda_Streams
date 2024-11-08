@@ -24,10 +24,6 @@ public class PredicateExample {
     }
     
     public static void printElements(List<String> list, Predicate<String> predicate) {
-        for (String item : list) {
-            if (predicate.test(item)) {
-                System.out.println(item);
-            }
-        }
+        list.stream().filter(predicate).forEach(s -> System.out.println(s)); //System.out::println kan ook (korter)
     }
 }

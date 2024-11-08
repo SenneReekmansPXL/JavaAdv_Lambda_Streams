@@ -1,0 +1,18 @@
+Oefening 7.3. In de klasse be.pxl.ja.oefening1.StudentList vind je een static me-
+thode createStudents(). Voorzie nu een hoofdprogramma waarin je start met deze
+
+lijst en de volgende vragen beantwoordt met behulp van een stream.
+• Welke studenten zijn er vandaag jarig. Toon hun naam. Je verandert best een
+geboortedata van de studenten om je stream uit te testen.
+• Toon alle gegevens van de student met de naam Carol.
+• Hoeveel studenten studeerden af in 2017?
+• Wat is de hoogste score ooit behaald? Wie behaalde deze hoogste score ooit?
+• Wie is de oudste persoon in de lijst?
+• Geef de namen van alle studenten gescheiden door komma (,) in één String.
+• Wie is de jongste student van afstudeerjaar 2018?
+• Maak een map met per afstudeerjaar de gemiddelde score.
+
+• Sorteer de studenten eerst op afstudeerjaar (recentste jaar eerst) en per afstu-
+deerjaar volgens hun score (van hoog naar laag). Toon naam, afstudeerjaar en
+
+score.

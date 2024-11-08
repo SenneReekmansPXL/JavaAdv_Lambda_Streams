@@ -9,6 +9,7 @@ public class Demo {
 				return original.toUpperCase();
 			}
 		};
+		StringConverter upperCaseConverterAsLambda = original -> original.toUpperCase();
 		StringConverter reverseConverter = new StringConverter() {
 			@Override
 			public String convert(String original) {
@@ -16,7 +17,11 @@ public class Demo {
 				return temporary.reverse().toString();
 			}
 		};
-		System.out.println(upperCaseConverter.convert("LuchtHavenPerSOneeL"));
-		System.out.println(reverseConverter.convert("LuchtHavenPerSOneeL"));
+		StringConverter reverseConverterAsLambda = s -> {
+			StringBuilder temporary = new StringBuilder(s);
+			return temporary.reverse().toString();
+		};
+		System.out.println(upperCaseConverterAsLambda.convert("LuchtHavenPerSOneeL"));
+		System.out.println(reverseConverterAsLambda.convert("LuchtHavenPerSOneeL"));
 	}
 }
