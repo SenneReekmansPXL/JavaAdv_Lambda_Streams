@@ -30,4 +30,10 @@ public class Student {
 	public LocalDate getDateOfBirth() {
 		return dateOfBirth;
 	}
+
+	@Override
+	public String toString() {
+		return name + " " + dateOfBirth + " " + graduationYear + " " + score;
+	}
+
 }
